@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS Callbacks: Example Site</title>
+</head>
+<body>
+    <div id="greeting-div">
+    <h1 id="main-header">Welcome to my site!</h1>
+    <h4 id="intro-header">My name is Michael, and I'm a chatbot!</h4><br>
+    <p>My only job here is to be a good listener, so you can comfortably talk about your week!</p>
+    </div>
+
+    <p>So, if you don't mind me asking, how was your week?</p>
+    <!--<input type="text" id="week-status" name="week-status">
+    <input class="btn-submit" id="submit-button" type="button" value="Submit" onclick=submit()>
+    <br><br>-->
+
+
+        <form id="list-item-form">
+            <!--<div class="center">
+                <input id="week-status" type="text" name="week-status" placeholder="Good or Bad?"/>
+            </div><br>-->
+           <div class="center">
+        <label for = "variable-status-dropdown">Choose one: </label>
+          <select id ="variable-status" name = "priority">
+                <option value="3">Select</option>
+                 <option value="2">Bad</option>
+                 <option value="1">Good</option>
+           </select> 
+        </div><br>
+        <h5 id="warning"></h5>
+        <!--<div class="center">
+            <input class="btn-2" id="submit-button" type="button" value="Submit" onclick="submit()">
+            <div id="warning"></div>
+        </div>-->
+        </form>
+
+    <script src="script.js" charset="utf-8" async></script>
+</body>
+</html>
